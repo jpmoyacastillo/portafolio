@@ -137,7 +137,7 @@
         <!-- projects -->
         <section id="projects" class="section">
           <h2 class="subtitle is-3 has-text-centered pb-4">Proyectos 🧩</h2>
-          <div class="container is-fluid grid-projects">
+          <div class="container grid-projects">
 
             <div class="card">
               <div class="card-image">
@@ -193,7 +193,7 @@
             
             </div>
 
-            <div class="card">
+            <div id="projectToHide1" class="card is-hidden">
               <div class="card-image">
                 <figure class="image is-4by3">
                   <img src="https://www.logistiekprofs.nl/images/article/large/5e26f9e90ce81.jpg?version=1579612649" alt="AH Warehouse">
@@ -211,7 +211,7 @@
             
             </div>
 
-            <div class="card">
+            <div id="projectToHide2" class="card is-hidden">
               <div class="card-image">
                 <figure class="image is-4by3">
                   <img src="img/uber.jpg" alt="JP as Delivery Partner">
@@ -229,7 +229,7 @@
             
             </div>
 
-            <div class="card">
+            <div id="projectToHide3" class="card is-hidden">
               <div class="card-image">
                 <figure class="image is-4by3">
                   <img src="img/carozzi-photo2.jpg" alt="JP as Product Manager">
@@ -247,7 +247,7 @@
             
             </div>
 
-            <div class="card">
+            <div id="projectToHide4" class="card is-hidden">
               <div class="card-image">
                 <figure class="image is-4by3">
                   <img src="img/peñalolen.jpg" alt="Final ceremony of the program">
@@ -265,7 +265,7 @@
             
             </div>
 
-            <div class="card">
+            <div id="projectToHide5" class="card is-hidden">
               <div class="card-image">
                 <figure class="image is-4by3">
                   <img src="img/thesis-photo.jpg" alt="Photo buses in Grecia street">
@@ -283,6 +283,9 @@
             
             </div>
 
+          </div>
+          <div class="is-flex is-justify-content-center">
+            <button id="moreProjects" class="button is-info mt-6">Más</button>
           </div>
         </section>
         <!-- /projects -->
@@ -384,7 +387,7 @@
                   </div>
                 </div>
 
-                <div class="card">
+                <div id="usefulToHide1" class="card is-hidden">
                   <div class="card-content">
                     <div class="content">
                       <h3>Podcasts</h3>
@@ -406,7 +409,7 @@
                   </div>
                 </div>
 
-                <div class="card">
+                <div id="usefulToHide2" class="card is-hidden">
                   <div class="card-content">
                     <div class="content">
                       <h3>Plataformas de desafío de código</h3>
@@ -446,7 +449,7 @@
                   </div>
                 </div>
 
-                <div class="card">
+                <div id="usefulToHide3" class="card is-hidden">
                   <div class="card-content">
                     <div class="content">
                       <h3>Hosting gratis</h3>
@@ -483,7 +486,7 @@
                   </div>
                 </div>
 
-                <div class="card">
+                <div id="usefulToHide4" class="card is-hidden">
                   <div class="card-content">
                     <div class="content">
                       <h3>Plataformas de Freelancing</h3>
@@ -523,7 +526,7 @@
                   </div>
                 </div>
 
-                <div class="card">
+                <div id="usefulToHide5" class="card is-hidden">
                   <div class="card-content">
                     <div class="content">
                       <h3>Para encontrar trabajos remotos</h3>
@@ -560,7 +563,7 @@
                   </div>
                 </div>
 
-                <div class="card">
+                <div id="usefulToHide6" class="card is-hidden">
                   <div class="card-content">
                     <div class="content">
                       <h3>Paletas de colores</h3>
@@ -585,7 +588,7 @@
                   </div>
                 </div>
 
-                <div class="card">
+                <div id="usefulToHide7" class="card is-hidden">
                   <div class="card-content">
                     <div class="content">
                       <h3>Fuentes</h3>
@@ -607,7 +610,7 @@
                   </div>
                 </div>
 
-                <div class="card">
+                <div id="usefulToHide8" class="card is-hidden">
                   <div class="card-content">
                     <div class="content">
                       <h3>Inspiración UI</h3>
@@ -626,7 +629,7 @@
                   </div>
                 </div>
 
-                <div class="card">
+                <div id="usefulToHide9" class="card is-hidden">
                   <div class="card-content">
                     <div class="content">
                       <h3>Fotos abiertas</h3>
@@ -645,7 +648,7 @@
                   </div>
                 </div>
 
-                <div class="card">
+                <div id="usefulToHide10" class="card is-hidden">
                   <div class="card-content">
                     <div class="content">
                       <h3>Iconos</h3>
@@ -673,7 +676,7 @@
                   </div>
                 </div>
 
-                <div class="card">
+                <div id="usefulToHide11" class="card is-hidden">
                   <div class="card-content">
                     <div class="content">
                       <h3>Ilustraciones</h3>
@@ -701,7 +704,7 @@
                   </div>
                 </div>
 
-                <div class="card">
+                <div id="usefulToHide12" class="card is-hidden">
                   <div class="card-content">
                     <div class="content">
                       <h3>Bibliotecas de animación</h3>
@@ -722,7 +725,7 @@
                   </div>
                 </div>
 
-                <div class="card">
+                <div id="usefulToHide13" class="card is-hidden">
                   <div class="card-content">
                     <div class="content">
                       <h3>Extensiones para Chrome</h3>
@@ -739,6 +742,9 @@
                 
 
               </div>
+              <div class="is-flex is-justify-content-center">
+                <button id="moreUseful" class="button is-info mt-6">Más</button>
+              </div>
             </section>
           </div>
         </div>
@@ -747,7 +753,7 @@
         <footer class="footer">
           <div class="content has-text-centered">
             <p>
-              Este sitio puede considerarse otro de mis proyectos personales. <br>Aprendiendo Funcionalidades y contenido que pueden agregarle valor.
+              Este sitio puede considerarse otro de mis proyectos personales. <br>Aprendiendo funcionalidades y contenido que pueden agregarle valor.
             </p>
             <p>Hecho desde cero</p>
             <a href="https://bulma.io">
@@ -760,28 +766,63 @@
             <p><strong>© 2021 Juan Pablo Moya Castillo</strong></p>
           </div>
         </footer>
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-    // Get all "navbar-burger" elements
-    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
-    // Check if there are any navbar burgers
-    if ($navbarBurgers.length > 0) {
-        // Add a click event on each of them
-        $navbarBurgers.forEach( el => {
-            el.addEventListener('click', () => {
-            // Get the target from the "data-target" attribute
-                const target = el.dataset.target;
-                const $target = document.getElementById(target);
-
-                // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-                el.classList.toggle('is-active');
-                $target.classList.toggle('is-active');
-
+        <script>
+          //Wait the content is ready
+          $(document).ready(function(){
+            //If the button is clicked, add the class is-hidden to the selected cards
+            $("#moreProjects").click(function(){
+              $("#projectToHide1").toggleClass("is-hidden");
+              $("#projectToHide2").toggleClass("is-hidden");
+              $("#projectToHide3").toggleClass("is-hidden");
+              $("#projectToHide4").toggleClass("is-hidden");
+              $("#projectToHide5").toggleClass("is-hidden");
+              //To hide button after click
+              $("#moreProjects").toggleClass("is-hidden");
             });
+            //If the button is clicked, add the class is-hidden to the selected cards
+            $("#moreUseful").click(function(){
+              $("#usefulToHide1").toggleClass("is-hidden");
+              $("#usefulToHide2").toggleClass("is-hidden");
+              $("#usefulToHide3").toggleClass("is-hidden");
+              $("#usefulToHide4").toggleClass("is-hidden");
+              $("#usefulToHide5").toggleClass("is-hidden");
+              $("#usefulToHide6").toggleClass("is-hidden");
+              $("#usefulToHide7").toggleClass("is-hidden");
+              $("#usefulToHide8").toggleClass("is-hidden");
+              $("#usefulToHide9").toggleClass("is-hidden");
+              $("#usefulToHide10").toggleClass("is-hidden");
+              $("#usefulToHide11").toggleClass("is-hidden");
+              $("#usefulToHide12").toggleClass("is-hidden");
+              $("#usefulToHide13").toggleClass("is-hidden");
+              //To hide button after click
+              $("#moreUseful").toggleClass("is-hidden");
+            });
+          });
+        </script>
+
+        <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Get all "navbar-burger" elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            // Check if there are any navbar burgers
+            if ($navbarBurgers.length > 0) {
+                // Add a click event on each of them
+                $navbarBurgers.forEach( el => {
+                    el.addEventListener('click', () => {
+                    // Get the target from the "data-target" attribute
+                        const target = el.dataset.target;
+                        const $target = document.getElementById(target);
+
+                        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                        el.classList.toggle('is-active');
+                        $target.classList.toggle('is-active');
+
+                    });
+                });
+            }
         });
-    }
-});
-</script>  
+        </script>  
   </body>
 </html>
