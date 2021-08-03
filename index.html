@@ -1,829 +1,862 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- LINKEDIN SEO -->
-    <meta name="title" property="og:title" content="Hola 👋 soy JP">
-    <meta name="image" property="og:image" content="img/carozzi-photo2.jpg">
-    <meta name="description" property="og:description" content="Portafolio Juan Pablo Moya Castillo">
-    <title>JP Moya Castillo | Portafolio</title>
-    <link rel="shortcut icon" href="./img/arbol.png" type="image/png">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- <link rel="stylesheet" href="styles/debug.css"> -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-97S085G1YM"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
 
-            gtag('config', 'G-97S085G1YM');
-    </script>
-  </head>
-  <style>
-            
-    /* general*/
-    html {
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- LINKEDIN SEO -->
+  <meta name="title" property="og:title" content="Hola 👋 soy JP">
+  <meta name="image" property="og:image" content="img/carozzi-photo2.jpg">
+  <meta name="description" property="og:description" content="Portafolio Juan Pablo Moya Castillo">
+  <title>JP Moya Castillo | Portafolio</title>
+  <link rel="shortcut icon" href="./img/arbol.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Roboto:wght@300;400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- <link rel="stylesheet" href="styles/debug.css"> -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-97S085G1YM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-97S085G1YM');
+  </script>
+</head>
+<style>
+  /* general*/
+  html {
     scroll-behavior: smooth;
-    }
-    .center {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .grid-useful {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, 250px);
-      gap: 2rem;
-      justify-content: center;
-    }
-    .grid-projects {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, 300px);
-      gap: 6rem;
-      justify-content: center;
-    }
-    /* general*/
-    
-    /* navbar */
-    .navbar {
-      font-family: 'Baloo 2', cursive, Arial, sans-serif;
-      font-size: 20px;
-    }
-    .navbar-item img {
-      max-height: 4rem;
-        border-radius: 20%;
-      }
-      
-      .navbar .navbar-burger {
-        top: 15px;
-        right: 15px;
-      }
-      /* navbar */
-      
-      /* footer */
-      .footer {
-      font-family: 'Baloo 2', cursive, Arial, sans-serif;
-      font-size: 20px;
-      }
-      /* footer */
-        
-  </style>
-  <body>
-        <!-- navbar -->
-          <nav class="navbar has-background-white-ter" role="navigation" aria-label="main navigation">
-            <div class="container">
-              <div class="navbar-brand">
-                  <a target=”_blank” class="navbar-item" href="https://about.me/moyacastillo">
-                    <img src="img/profile-photo-small.jpg">
-                  </a>
-                  
-                  <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                  <span aria-hidden="true"></span>
-                  <span aria-hidden="true"></span>
-                  <span aria-hidden="true"></span>
-                  </a>
-              </div>
-              
-              <div id="navbarBasicExample" class="navbar-menu">
-                <!-- <div class="navbar-start center">
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .grid-useful {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    gap: 2rem;
+    justify-content: center;
+  }
+
+  .grid-projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 6rem;
+    justify-content: center;
+  }
+
+  /* general*/
+
+  /* navbar */
+  .navbar {
+    font-family: 'Baloo 2', cursive, Arial, sans-serif;
+    font-size: 20px;
+  }
+
+  .navbar-item img {
+    max-height: 4rem;
+    border-radius: 20%;
+  }
+
+  .navbar .navbar-burger {
+    top: 15px;
+    right: 15px;
+  }
+
+  /* navbar */
+
+  /* footer */
+  .footer {
+    font-family: 'Baloo 2', cursive, Arial, sans-serif;
+    font-size: 20px;
+  }
+
+  /* footer */
+</style>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar has-background-white-ter" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a target=”_blank” class="navbar-item" href="https://about.me/moyacastillo">
+          <img src="img/profile-photo-small.jpg">
+        </a>
+
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <!-- <div class="navbar-start center">
                   <p class="navbar-item">
                       <a href="https://about.me/moyacastillo">JP Moya</a>
                   </p>
                 </div> -->
-                <div class="navbar-end">
-                  <a href="#hero" class="navbar-item">
-                      Inicio
-                  </a>
-          
-                  <a href="#projects" class="navbar-item">
-                      Proyectos
-                  </a>
+        <div class="navbar-end">
+          <a href="#hero" class="navbar-item">
+            Inicio
+          </a>
 
-                  <a href="#useful" class="navbar-item">
-                      Útil
-                  </a>
-          
-                  <a href="https://jpmoyacastillo.github.io/portfolio/" class="navbar-item">
-                    <span class="icon-text has-text-info">
-                        <span class="icon">
-                            <i class="fas fa-language"></i>
-                        </span>
-                        <span>Translate</span>
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </nav>
-        <!-- /navbar -->
+          <a href="#projects" class="navbar-item">
+            Proyectos
+          </a>
 
-        <!-- hero -->
-        <section id="hero" class="hero is-medium">
-          <div class="hero-body">
-            <div class="content has-text-centered">
-              <h1>Hola 👋🏼 mi nombre es Juan Pablo</h1>
-              <p>Soy <a href="https://drive.google.com/file/d/1PyxswTO1dwqojyt93CmjQyiGDIk_-z-K/view?usp=sharing">ingeniero industrial</a> y estudiante de <a href="https://github.com/jpmoyacastillo">desarrollo front-end.</a> <br>Actualmente vivo en Hilversum, Países Bajos. <br>Mis intereses van desde la sostenibilidad hasta la tecnología. También estudio sobre innovación, emprendimiento e impacto social.</p>
-              <p>Estemos en contacto via <a href="https://www.linkedin.com/in/jpmoyacastillo/">LinkedIn</a> o <a href="https://twitter.com/jpmoyacastillo">Twitter.</a></p>
-            </div>
-          </div>
-        </section>
-        <!-- /hero -->
+          <a href="#useful" class="navbar-item">
+            Útil
+          </a>
 
-        <!-- projects -->
-        <section id="projects" class="section">
-          <h2 class="subtitle is-3 has-text-centered pb-4">Proyectos 🧩</h2>
-          <div class="container grid-projects">
+          <a href="https://rxresu.me/r/xlnac9" target="_blank" class="navbar-item">
+            CV
+          </a>
 
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-4by3">
-                  <img src="img/bitha.png" alt="Bitha e-commerce">
-                </figure>
-              </div>
+          <a href="https://jpmoyacastillo.github.io/portfolio/" class="navbar-item">
+            <span class="icon-text has-text-info">
+              <span class="icon">
+                <i class="fas fa-language"></i>
+              </span>
+              <span>Translate</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- /navbar -->
 
-              <div class="card-content">
-                <div class="content">
-                  Construir la primera tienda de comercio electrónico. <br>Cooperación en la estrategia de marketing digital.<br><a href="https://www.bithatienda.cl" target="_blank">@bithatienda</a>
-                  <a href="#">#DiseñoLocal</a> <a href="#">#ConfeccionLocal</a>
-                  <br>
-                  <time datetime="2016-1-1">2021 | Chile (remoto)</time>
-                </div>
-              </div>
-            
-            </div>
+  <!-- hero -->
+  <section id="hero" class="hero is-medium">
+    <div class="hero-body">
+      <div class="content has-text-centered">
+        <h1>Hola 👋🏼 mi nombre es Juan Pablo</h1>
+        <p>Soy <a href="https://rxresu.me/r/xlnac9" target="_blank">ingeniero
+            industrial</a> y estudiante de <a href="https://github.com/jpmoyacastillo" target="_blank">desarrollo
+            front-end.</a>
+          <br>Actualmente vivo en Hilversum, Países Bajos. <br>Mis intereses van desde la sostenibilidad hasta la
+          tecnología. También estudio sobre innovación, emprendimiento e impacto social.
+        </p>
+        <p>Estemos en contacto via <a href="https://www.linkedin.com/in/jpmoyacastillo/" target="_blank">LinkedIn</a> o
+          <a href="https://twitter.com/jpmoyacastillo" target="_blank">Twitter.</a></p>
+      </div>
+    </div>
+  </section>
+  <!-- /hero -->
 
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-4by3">
-                  <img src="img/eticolabora.png" alt="Eticolabora website">
-                </figure>
-              </div>
+  <!-- projects -->
+  <section id="projects" class="section">
+    <h2 class="subtitle is-3 has-text-centered pb-4">Proyectos 🧩</h2>
+    <div class="container grid-projects">
 
-              <div class="card-content">
-                <div class="content">
-                  Creación, diseño y producción de una landing page. <br>Generación de leads para transformarlos en puntos de contacto.<br><a href="https://www.eticolabora.org" target="_blank">@eticolabora</a>
-                  <a href="#">#DesarrolloSostenible</a> <a href="#">#DesarrolloEmpresarial</a>
-                  <br>
-                  <time datetime="2016-1-1">2020 - 2021 | Chile (remoto)</time>
-                </div>
-              </div>
-            
-            </div>
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img src="img/bitha.png" alt="Bitha e-commerce">
+          </figure>
+        </div>
 
-            <div class="card">
-              <div class="card-image">
-                <figure class="image is-4by3">
-                  <img src="img/hunkemoller.png" alt="Hunkemöller website">
-                </figure>
-              </div>
-
-              <div class="card-content">
-                <div class="content">
-                  Preparación de pedidos para tiendas de toda Europa. <br> Ayuda en la cadena de valor dentro de la bodega. Utilización de un sistema informático de expedición y almacenamiento.<br><a href="https://www.hunkemoller.nl/" target="_blank">@hunkemöller</a>
-                  <a href="#">#BodegaEcommerce</a> <a href="#">#Omnicanal</a>
-                  <br>
-                  <time datetime="2016-1-1">2020 - 2021 | Países Bajos</time>
-                </div>
-              </div>
-            
-            </div>
-
-            <div id="projectToHide1" class="card is-hidden">
-              <div class="card-image">
-                <figure class="image is-4by3">
-                  <img src="https://www.logistiekprofs.nl/images/article/large/5e26f9e90ce81.jpg?version=1579612649" alt="AH Warehouse">
-                </figure>
-              </div>
-
-              <div class="card-content">
-                <div class="content">
-                  Almacenamiento de comercio electrónico. <br> Trabajando con productos normales y congelados.<br> Uso de sistema de información interno para maximizar la entrega de pedidos por día. En 2019 AH Online entregó 22 millones de cajas. <a href="https://www.logistiekprofs.nl/nieuws/albert-heijn-bezorgde-22-miljoen-kratten-in-2019" target="_blank">@AHOnline</a>
-                  <a href="#">#BodegaEcommerce</a> <a href="#">#SistemaGestionBodega</a>
-                  <br>
-                  <time datetime="2016-1-1">2019 - 2020 | Países Bajos</time>
-                </div>
-              </div>
-            
-            </div>
-
-            <div id="projectToHide2" class="card is-hidden">
-              <div class="card-image">
-                <figure class="image is-4by3">
-                  <img src="img/uber.jpg" alt="JP as Delivery Partner">
-                </figure>
-              </div>
-
-              <div class="card-content">
-                <div class="content">
-                  Socio Repartidor de Uber Eats.<br><a href="https://www.uber.com/us/en/deliver/" target="_blank">@UberEats</a>
-                  <a href="#">#DeliveryPartner</a> <a href="#">#UberApp</a>
-                  <br>
-                  <time datetime="2016-1-1">2019 - 2020 | Países Bajos</time>
-                </div>
-              </div>
-            
-            </div>
-
-            <div id="projectToHide3" class="card is-hidden">
-              <div class="card-image">
-                <figure class="image is-4by3">
-                  <img src="img/carozzi-photo2.jpg" alt="JP as Product Manager">
-                </figure>
-              </div>
-
-              <div class="card-content">
-                <div class="content">
-                  Como Product Manager, en colaboración con el Brand Manager, planificamos, desarrollamos e innovamos la estrategia de 3 de las marcas de chocolate más importantes de Chile: Costa, Ambrosoli y Calaf. <br> Liderazgo de mercado con alrededor de 150 productos. <br><a href="https://www.carozzicorp.com/" target="_blank">@Carozzi</a>
-                  <a href="#">#Management</a> <a href="#">#Innovacion</a>
-                  <br>
-                  <time datetime="2016-1-1">2017 - 2018 | Chile</time>
-                </div>
-              </div>
-            
-            </div>
-
-            <div id="projectToHide4" class="card is-hidden">
-              <div class="card-image">
-                <figure class="image is-4by3">
-                  <img src="img/peñalolen.jpg" alt="Final ceremony of the program">
-                </figure>
-              </div>
-
-              <div class="card-content">
-                <div class="content">
-                  Desarrollo de consultorías para el Programa de Gobierno "Mujer Emprendedora" a beneficiarios vulnerables de la comuna de Peñalolen. <br> <a href="https://www.penalolen.cl/" target="_blank">@MunicipalidadPeñalolen</a>
-                  <a href="#">#PYMEs</a>
-                  <br>
-                  <time datetime="2016-1-1">2016  | Chile</time>
-                </div>
-              </div>
-            
-            </div>
-
-            <div id="projectToHide5" class="card is-hidden">
-              <div class="card-image">
-                <figure class="image is-4by3">
-                  <img src="img/thesis-photo.jpg" alt="Photo buses in Grecia street">
-                </figure>
-              </div>
-
-              <div class="card-content">
-                <div class="content">
-                  Análisis técnico y económico de la calle Grecia como sistema BRT (Bus Rapid Transit). <br> Este proyecto se incorporó a la implementación de buses y terminales eléctricas (en cooperación con Metbus, ByD y Enel Chile) en 2018. <br> <a href="https://brtdata.org/location/latin_america/chile/santiago/?lang=pt" target="_blank">@GreciaBRT</a>
-                  <a href="#">#MovilidadSostenible</a>
-                  <br>
-                  <time datetime="2016-1-1">2016  | Chile</time>
-                </div>
-              </div>
-            
-            </div>
-
-          </div>
-          <div class="is-flex is-justify-content-center">
-            <button id="moreProjects" class="button is-info mt-6">Más</button>
-          </div>
-        </section>
-        <!-- /projects -->
-
-        <hr class="dropdown-divider mt-6">
-
-        <!-- useful -->
-        <div class="columns">
-          <div class="column is-8 is-offset-2">
-            <h2 id="useful" class="subtitle is-3 has-text-centered pt-6">Útil 🔗</h2>
-            <section class="section is-paddingless">
-              <div class="container grid-useful">
-
-                <div class="card">
-                  <div class="card-content">
-                    <div class="content">
-                      <h3>Plataformas para aprender a programar</h3>
-                            <ol>
-                                <li>
-                                    <a target=”_blank” href="http://freecodecamp.org">Free code camp</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://codecademy.com">Code Academy</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://javascript30.com">JS 30</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://frontendmentor.io">Frontend mentor</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://testautomationu.applitools.com">Test Automation University</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://coursera.org">Coursera</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://khanacademy.org">Khan Academy</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://sololearn.com">Solo Learn</a>
-                                </li>
-                            </ol>
-                    </div>
-                  </div>
-                </div>
-                
-                <div class="card">
-                  <div class="card-content">
-                    <div class="content">
-                      <h3>Editores de código</h3>
-                        <ol>
-                            <li>Visual Studio Code [VS Code]</li>
-                            <li>Sublime Text</li>
-                            <li>Atom</li>
-                            <li>Brackets</li>
-                            <li>Vim</li>
-                        </ol>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="card">
-                  <div class="card-content">
-                    <div class="content">
-                      <h3>Documentación</h3>
-                            <ol>
-                                <li>
-                                    <a target=”_blank” href="http://developer.mozilla.org">Developer Mozilla</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://w3schools.com">W3 Schools</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://w3docs.com">W3 Docs</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://devdocs.io">Dev Docs</a>
-                                </li>
-                            </ol>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="card">
-                  <div class="card-content">
-                    <div class="content">
-                      <h3>Canales de Youtube</h3>
-                        <ol>
-                          <li>Travesy Media</li>
-                          <li>FreeCodeCamp</li>
-                          <li>The Net Ninja</li>
-                          <li>Google Chrome Developers</li>
-                          <li>The New Boston</li>
-                          <li>Derek Banas</li>
-                          <li>Academind</li>
-                      </ol>
-                    </div>
-                  </div>
-                </div>
-
-                <div id="usefulToHide1" class="card is-hidden">
-                  <div class="card-content">
-                    <div class="content">
-                      <h3>Podcasts</h3>
-                          <ol>
-                              <li>Syntax</li>
-                              <li>Fullstack radio</li>
-                              <li>The Changelog</li>
-                              <li>The Laracasts Snippet</li>
-                              <li>Front End Happy Hour</li>
-                              <li>JavaScript Jabber Archives</li>
-                              <li>Commit Your Code!</li>
-                              <li>Shop Talk</li>
-                              <li>Ladybug Podcast</li>
-                              <li>CodePen Radio</li>
-                              <li>JAMStack Radio</li>
-                              <li>Modern web</li>
-                          </ol>
-                    </div>
-                  </div>
-                </div>
-
-                <div id="usefulToHide2" class="card is-hidden">
-                  <div class="card-content">
-                    <div class="content">
-                      <h3>Plataformas de desafío de código</h3>
-                            <ol>
-                                <li>
-                                    <a target=”_blank” href="http://codewars.com">Code wars</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://topcoder.com">Top coder</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://codingame.com">Codingame</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://hackerrank.com">Hacker rank</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://projecteuler.net">Project euler</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://coderbyte.com">Code Byte</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://codechef.com">Code Chef</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://exercism.io">Exercism</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://leetcode.com">Leet code</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://spoj.com">Spoj</a>
-                                </li>
-                            </ol>
-                    </div>
-                  </div>
-                </div>
-
-                <div id="usefulToHide3" class="card is-hidden">
-                  <div class="card-content">
-                    <div class="content">
-                      <h3>Hosting gratis</h3>
-                            <ol>
-                                <li>
-                                    <a target=”_blank” href="http://netlify.com">Netlify</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://firebase.google.com">Firebase Google</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://aws.amazon.com">AWS Amazon</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://heroku.com">Heroku</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://pages.github.com">Pages Github</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://vercel.com">Vercel</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://surge.sh">Surge</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://render.com">Render</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://docs.gitlab.com/ee/user/project/pages">Gitlab</a>
-                                </li>
-                            </ol>
-                    </div>
-                  </div>
-                </div>
-
-                <div id="usefulToHide4" class="card is-hidden">
-                  <div class="card-content">
-                    <div class="content">
-                      <h3>Plataformas de Freelancing</h3>
-                            <ol>
-                                <li>
-                                    <a target=”_blank” href="http://toptal.com">Toptal</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://upwork.com">Up Work</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://freelancer.com">Freelancer</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://peopleperhour.com">People per hour</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://simplyhired.com">Simply hired</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://envato.com">Envato</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://guru.com">Guru</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://fiverr.com">Fiverr</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://hireable.com">Hireable</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://6nomads.com">6 nomadss</a>
-                                </li>
-                            </ol>
-                    </div>
-                  </div>
-                </div>
-
-                <div id="usefulToHide5" class="card is-hidden">
-                  <div class="card-content">
-                    <div class="content">
-                      <h3>Para encontrar trabajos remotos</h3>
-                            <ol>
-                                <li>
-                                    <a target=”_blank” href="http://flexjobs.com">Flex jobs</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://remote.co/remote-jobs">Remote jobs</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://javascript30.com">JS 30</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://justremote.co">Frontend mentor</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://weworkremotely.com">We work remotely</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://remoteok.io">Remote OK</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://jobspresso.co">Jobs Presso</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://europeremotely.com">Europe Remotely</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://http://wfh.io">WFH</a>
-                                </li>
-                            </ol>
-                    </div>
-                  </div>
-                </div>
-
-                <div id="usefulToHide6" class="card is-hidden">
-                  <div class="card-content">
-                    <div class="content">
-                      <h3>Paletas de colores</h3>
-                            <ol>
-                                <li>
-                                    <a target=”_blank” href="http://coolors.co">Coolors.co</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://colorhunt.co">Color Hunt</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://paletton.com">Paletton</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://color-hex.com">Color Hex</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://mycolor.space">My Color</a>
-                                </li>
-                            </ol>
-                    </div>
-                  </div>
-                </div>
-
-                <div id="usefulToHide7" class="card is-hidden">
-                  <div class="card-content">
-                    <div class="content">
-                      <h3>Fuentes</h3>
-                            <ol>
-                                <li>
-                                    <a target=”_blank” href="http://fonts.google.com">Fonts Google</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://fontspace.com">Font Space</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://1001fonts.com">1001 fonts</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://fontsquirrel.com">Fonts Quirrel</a>
-                                </li>
-                            </ol>
-                    </div>
-                  </div>
-                </div>
-
-                <div id="usefulToHide8" class="card is-hidden">
-                  <div class="card-content">
-                    <div class="content">
-                      <h3>Inspiración UI</h3>
-                            <ol>
-                                <li>
-                                    <a target=”_blank” href="http://uimovement.com">Ui Movement</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://uigarage.net">Ui Garage</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://collectui.com">Collect Ui</a>
-                                </li>
-                            </ol>
-                    </div>
-                  </div>
-                </div>
-
-                <div id="usefulToHide9" class="card is-hidden">
-                  <div class="card-content">
-                    <div class="content">
-                      <h3>Fotos abiertas</h3>
-                            <ol>
-                                <li>
-                                    <a target=”_blank” href="http://unsplash.com">Unsplash</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://pixabay.com">Pixabay</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://pexels.com">Pexels</a>
-                                </li>
-                            </ol>
-                    </div>
-                  </div>
-                </div>
-
-                <div id="usefulToHide10" class="card is-hidden">
-                  <div class="card-content">
-                    <div class="content">
-                      <h3>Iconos</h3>
-                          <ol>
-                              <li>
-                                  <a target=”_blank” href="http://fontawesome.com">Font awesome</a>
-                              </li>
-                              <li>
-                                  <a target=”_blank” href="http://flaticon.com">Flat icon</a>
-                              </li>
-                              <li>
-                                  <a target=”_blank” href="http://icons8.com">Icons 8</a>
-                              </li>
-                              <li>
-                                  <a target=”_blank” href="http://material.io/resources/icons">Material Icons</a>
-                              </li>
-                              <li>
-                                  <a target=”_blank” href="http://iconmonstr.com">Icon Monstr</a>
-                              </li>
-                              <li>
-                                  <a target=”_blank” href="http://www.freepik.com">Freepik</a>
-                              </li>
-                          </ol>
-                    </div>
-                  </div>
-                </div>
-
-                <div id="usefulToHide11" class="card is-hidden">
-                  <div class="card-content">
-                    <div class="content">
-                      <h3>Ilustraciones</h3>
-                            <ol>
-                                <li>
-                                    <a target=”_blank” href="http://undraw.co/illustrations">Undraw</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://drawkit.io">Drawkit</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://icons8.com/ouch">Icons 8</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://iradesign.io">IRA Design</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://interfacer.xyz">Interfacer</a>
-                                </li>
-                                <li>
-                                    <a target=”_blank” href="http://blush.design">Blush Design</a>
-                                </li>
-                            </ol>
-                    </div>
-                  </div>
-                </div>
-
-                <div id="usefulToHide12" class="card is-hidden">
-                  <div class="card-content">
-                    <div class="content">
-                      <h3>Bibliotecas de animación</h3>
-                            <ol>
-                                <li>CSShake</li>
-                                <li>Animate.css</li>
-                                <li>AnimeJS</li>
-                                <li>GreenSock (GSAP)</li>
-                                <li>Magic Animations</li>
-                                <li>Hover css</li>
-                                <li>AniJS</li>
-                                <li>Wicked CSS</li>
-                                <li>Tuesday</li>
-                                <li>Mo.js</li>
-                                <li>Bounce.js</li>
-                            </ol>
-                    </div>
-                  </div>
-                </div>
-
-                <div id="usefulToHide13" class="card is-hidden">
-                  <div class="card-content">
-                    <div class="content">
-                      <h3>Extensiones para Chrome</h3>
-                            <ol>
-                                <li>Web Developer</li>
-                                <li>CSSViewer</li>
-                                <li>Wappalyzer</li>
-                                <li>JSONView</li>
-                                <li>Lorem Ipsum Generator</li>
-                            </ol>
-                    </div>
-                  </div>
-                </div>
-                
-
-              </div>
-              <div class="is-flex is-justify-content-center">
-                <button id="moreUseful" class="button is-info mt-6">Más</button>
-              </div>
-            </section>
+        <div class="card-content">
+          <div class="content">
+            Construir la primera tienda de comercio electrónico. <br>Cooperación en la estrategia de marketing
+            digital.<br><a href="https://www.bithatienda.cl" target="_blank">@bithatienda</a>
+            <a href="#">#DiseñoLocal</a> <a href="#">#ConfeccionLocal</a>
+            <br>
+            <time datetime="2016-1-1">2021 | Chile (remoto)</time>
           </div>
         </div>
-        <!-- /useful -->
 
-        <footer class="footer">
-          <div class="content has-text-centered">
-            <p>
-              Este sitio puede considerarse otro de mis proyectos personales. <br>Aprendiendo funcionalidades y contenido que pueden agregarle valor.
-            </p>
-            <p>Hecho desde cero</p>
-            <a href="https://bulma.io">
-              <img
-                src="https://bulma.io/images/made-with-bulma.png"
-                alt="Made with Bulma"
-                width="256"
-                height="48">
-            </a>
-            <p><strong>© 2021 Juan Pablo Moya Castillo</strong></p>
+      </div>
+
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img src="img/eticolabora.png" alt="Eticolabora website">
+          </figure>
+        </div>
+
+        <div class="card-content">
+          <div class="content">
+            Creación, diseño y producción de una landing page. <br>Generación de leads para transformarlos en puntos de
+            contacto.<br><a href="https://www.eticolabora.org" target="_blank">@eticolabora</a>
+            <a href="#">#DesarrolloSostenible</a> <a href="#">#DesarrolloEmpresarial</a>
+            <br>
+            <time datetime="2016-1-1">2020 - 2021 | Chile (remoto)</time>
           </div>
-        </footer>
+        </div>
 
-        <script>
-          //Wait the content is ready
-          $(document).ready(function(){
-            //If the button is clicked, add the class is-hidden to the selected cards
-            $("#moreProjects").click(function(){
-              $("#projectToHide1").toggleClass("is-hidden");
-              $("#projectToHide2").toggleClass("is-hidden");
-              $("#projectToHide3").toggleClass("is-hidden");
-              $("#projectToHide4").toggleClass("is-hidden");
-              $("#projectToHide5").toggleClass("is-hidden");
-              //To hide button after click
-              $("#moreProjects").toggleClass("is-hidden");
-            });
-            //If the button is clicked, add the class is-hidden to the selected cards
-            $("#moreUseful").click(function(){
-              $("#usefulToHide1").toggleClass("is-hidden");
-              $("#usefulToHide2").toggleClass("is-hidden");
-              $("#usefulToHide3").toggleClass("is-hidden");
-              $("#usefulToHide4").toggleClass("is-hidden");
-              $("#usefulToHide5").toggleClass("is-hidden");
-              $("#usefulToHide6").toggleClass("is-hidden");
-              $("#usefulToHide7").toggleClass("is-hidden");
-              $("#usefulToHide8").toggleClass("is-hidden");
-              $("#usefulToHide9").toggleClass("is-hidden");
-              $("#usefulToHide10").toggleClass("is-hidden");
-              $("#usefulToHide11").toggleClass("is-hidden");
-              $("#usefulToHide12").toggleClass("is-hidden");
-              $("#usefulToHide13").toggleClass("is-hidden");
-              //To hide button after click
-              $("#moreUseful").toggleClass("is-hidden");
-            });
+      </div>
+
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img src="img/hunkemoller.png" alt="Hunkemöller website">
+          </figure>
+        </div>
+
+        <div class="card-content">
+          <div class="content">
+            Preparación de pedidos para tiendas de toda Europa. <br> Ayuda en la cadena de valor dentro de la bodega.
+            Utilización de un sistema informático de expedición y almacenamiento.<br><a
+              href="https://www.hunkemoller.nl/" target="_blank">@hunkemöller</a>
+            <a href="#">#BodegaEcommerce</a> <a href="#">#Omnicanal</a>
+            <br>
+            <time datetime="2016-1-1">2020 - 2021 | Países Bajos</time>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="projectToHide1" class="card is-hidden">
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img src="https://www.logistiekprofs.nl/images/article/large/5e26f9e90ce81.jpg?version=1579612649"
+              alt="AH Warehouse">
+          </figure>
+        </div>
+
+        <div class="card-content">
+          <div class="content">
+            Almacenamiento de comercio electrónico. <br> Trabajando con productos normales y congelados.<br> Uso de
+            sistema de información interno para maximizar la entrega de pedidos por día. En 2019 AH Online entregó 22
+            millones de cajas. <a
+              href="https://www.logistiekprofs.nl/nieuws/albert-heijn-bezorgde-22-miljoen-kratten-in-2019"
+              target="_blank">@AHOnline</a>
+            <a href="#">#BodegaEcommerce</a> <a href="#">#SistemaGestionBodega</a>
+            <br>
+            <time datetime="2016-1-1">2019 - 2020 | Países Bajos</time>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="projectToHide2" class="card is-hidden">
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img src="img/uber.jpg" alt="JP as Delivery Partner">
+          </figure>
+        </div>
+
+        <div class="card-content">
+          <div class="content">
+            Socio Repartidor de Uber Eats.<br><a href="https://www.uber.com/us/en/deliver/"
+              target="_blank">@UberEats</a>
+            <a href="#">#DeliveryPartner</a> <a href="#">#UberApp</a>
+            <br>
+            <time datetime="2016-1-1">2019 - 2020 | Países Bajos</time>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="projectToHide3" class="card is-hidden">
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img src="img/carozzi-photo2.jpg" alt="JP as Product Manager">
+          </figure>
+        </div>
+
+        <div class="card-content">
+          <div class="content">
+            Como Product Manager, en colaboración con el Brand Manager, planificamos, desarrollamos e innovamos la
+            estrategia de 3 de las marcas de chocolate más importantes de Chile: Costa, Ambrosoli y Calaf. <br>
+            Liderazgo de mercado con alrededor de 150 productos. <br><a href="https://www.carozzicorp.com/"
+              target="_blank">@Carozzi</a>
+            <a href="#">#Management</a> <a href="#">#Innovacion</a>
+            <br>
+            <time datetime="2016-1-1">2017 - 2018 | Chile</time>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="projectToHide4" class="card is-hidden">
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img src="img/peñalolen.jpg" alt="Final ceremony of the program">
+          </figure>
+        </div>
+
+        <div class="card-content">
+          <div class="content">
+            Desarrollo de consultorías para el Programa de Gobierno "Mujer Emprendedora" a beneficiarios vulnerables de
+            la comuna de Peñalolen. <br> <a href="https://www.penalolen.cl/" target="_blank">@MunicipalidadPeñalolen</a>
+            <a href="#">#PYMEs</a>
+            <br>
+            <time datetime="2016-1-1">2016 | Chile</time>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="projectToHide5" class="card is-hidden">
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img src="img/thesis-photo.jpg" alt="Photo buses in Grecia street">
+          </figure>
+        </div>
+
+        <div class="card-content">
+          <div class="content">
+            Análisis técnico y económico de la calle Grecia como sistema BRT (Bus Rapid Transit). <br> Este proyecto se
+            incorporó a la implementación de buses y terminales eléctricas (en cooperación con Metbus, ByD y Enel Chile)
+            en 2018. <br> <a href="https://brtdata.org/location/latin_america/chile/santiago/?lang=pt"
+              target="_blank">@GreciaBRT</a>
+            <a href="#">#MovilidadSostenible</a>
+            <br>
+            <time datetime="2016-1-1">2016 | Chile</time>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="is-flex is-justify-content-center">
+      <button id="moreProjects" class="button is-info mt-6">Más</button>
+    </div>
+  </section>
+  <!-- /projects -->
+
+  <hr class="dropdown-divider mt-6">
+
+  <!-- useful -->
+  <div class="columns">
+    <div class="column is-8 is-offset-2">
+      <h2 id="useful" class="subtitle is-3 has-text-centered pt-6">Útil 🔗</h2>
+      <section class="section is-paddingless">
+        <div class="container grid-useful">
+
+          <div class="card">
+            <div class="card-content">
+              <div class="content">
+                <h3>Plataformas para aprender a programar</h3>
+                <ol>
+                  <li>
+                    <a target=”_blank” href="http://freecodecamp.org">Free code camp</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://codecademy.com">Code Academy</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://javascript30.com">JS 30</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://frontendmentor.io">Frontend mentor</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://testautomationu.applitools.com">Test Automation University</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://coursera.org">Coursera</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://khanacademy.org">Khan Academy</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://sololearn.com">Solo Learn</a>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-content">
+              <div class="content">
+                <h3>Editores de código</h3>
+                <ol>
+                  <li>Visual Studio Code [VS Code]</li>
+                  <li>Sublime Text</li>
+                  <li>Atom</li>
+                  <li>Brackets</li>
+                  <li>Vim</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-content">
+              <div class="content">
+                <h3>Documentación</h3>
+                <ol>
+                  <li>
+                    <a target=”_blank” href="http://developer.mozilla.org">Developer Mozilla</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://w3schools.com">W3 Schools</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://w3docs.com">W3 Docs</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://devdocs.io">Dev Docs</a>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-content">
+              <div class="content">
+                <h3>Canales de Youtube</h3>
+                <ol>
+                  <li>Travesy Media</li>
+                  <li>FreeCodeCamp</li>
+                  <li>The Net Ninja</li>
+                  <li>Google Chrome Developers</li>
+                  <li>The New Boston</li>
+                  <li>Derek Banas</li>
+                  <li>Academind</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+
+          <div id="usefulToHide1" class="card is-hidden">
+            <div class="card-content">
+              <div class="content">
+                <h3>Podcasts</h3>
+                <ol>
+                  <li>Syntax</li>
+                  <li>Fullstack radio</li>
+                  <li>The Changelog</li>
+                  <li>The Laracasts Snippet</li>
+                  <li>Front End Happy Hour</li>
+                  <li>JavaScript Jabber Archives</li>
+                  <li>Commit Your Code!</li>
+                  <li>Shop Talk</li>
+                  <li>Ladybug Podcast</li>
+                  <li>CodePen Radio</li>
+                  <li>JAMStack Radio</li>
+                  <li>Modern web</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+
+          <div id="usefulToHide2" class="card is-hidden">
+            <div class="card-content">
+              <div class="content">
+                <h3>Plataformas de desafío de código</h3>
+                <ol>
+                  <li>
+                    <a target=”_blank” href="http://codewars.com">Code wars</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://topcoder.com">Top coder</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://codingame.com">Codingame</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://hackerrank.com">Hacker rank</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://projecteuler.net">Project euler</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://coderbyte.com">Code Byte</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://codechef.com">Code Chef</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://exercism.io">Exercism</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://leetcode.com">Leet code</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://spoj.com">Spoj</a>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+
+          <div id="usefulToHide3" class="card is-hidden">
+            <div class="card-content">
+              <div class="content">
+                <h3>Hosting gratis</h3>
+                <ol>
+                  <li>
+                    <a target=”_blank” href="http://netlify.com">Netlify</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://firebase.google.com">Firebase Google</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://aws.amazon.com">AWS Amazon</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://heroku.com">Heroku</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://pages.github.com">Pages Github</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://vercel.com">Vercel</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://surge.sh">Surge</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://render.com">Render</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://docs.gitlab.com/ee/user/project/pages">Gitlab</a>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+
+          <div id="usefulToHide4" class="card is-hidden">
+            <div class="card-content">
+              <div class="content">
+                <h3>Plataformas de Freelancing</h3>
+                <ol>
+                  <li>
+                    <a target=”_blank” href="http://toptal.com">Toptal</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://upwork.com">Up Work</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://freelancer.com">Freelancer</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://peopleperhour.com">People per hour</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://simplyhired.com">Simply hired</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://envato.com">Envato</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://guru.com">Guru</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://fiverr.com">Fiverr</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://hireable.com">Hireable</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://6nomads.com">6 nomadss</a>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+
+          <div id="usefulToHide5" class="card is-hidden">
+            <div class="card-content">
+              <div class="content">
+                <h3>Para encontrar trabajos remotos</h3>
+                <ol>
+                  <li>
+                    <a target=”_blank” href="http://flexjobs.com">Flex jobs</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://remote.co/remote-jobs">Remote jobs</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://javascript30.com">JS 30</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://justremote.co">Frontend mentor</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://weworkremotely.com">We work remotely</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://remoteok.io">Remote OK</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://jobspresso.co">Jobs Presso</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://europeremotely.com">Europe Remotely</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://http://wfh.io">WFH</a>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+
+          <div id="usefulToHide6" class="card is-hidden">
+            <div class="card-content">
+              <div class="content">
+                <h3>Paletas de colores</h3>
+                <ol>
+                  <li>
+                    <a target=”_blank” href="http://coolors.co">Coolors.co</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://colorhunt.co">Color Hunt</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://paletton.com">Paletton</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://color-hex.com">Color Hex</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://mycolor.space">My Color</a>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+
+          <div id="usefulToHide7" class="card is-hidden">
+            <div class="card-content">
+              <div class="content">
+                <h3>Fuentes</h3>
+                <ol>
+                  <li>
+                    <a target=”_blank” href="http://fonts.google.com">Fonts Google</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://fontspace.com">Font Space</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://1001fonts.com">1001 fonts</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://fontsquirrel.com">Fonts Quirrel</a>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+
+          <div id="usefulToHide8" class="card is-hidden">
+            <div class="card-content">
+              <div class="content">
+                <h3>Inspiración UI</h3>
+                <ol>
+                  <li>
+                    <a target=”_blank” href="http://uimovement.com">Ui Movement</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://uigarage.net">Ui Garage</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://collectui.com">Collect Ui</a>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+
+          <div id="usefulToHide9" class="card is-hidden">
+            <div class="card-content">
+              <div class="content">
+                <h3>Fotos abiertas</h3>
+                <ol>
+                  <li>
+                    <a target=”_blank” href="http://unsplash.com">Unsplash</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://pixabay.com">Pixabay</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://pexels.com">Pexels</a>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+
+          <div id="usefulToHide10" class="card is-hidden">
+            <div class="card-content">
+              <div class="content">
+                <h3>Iconos</h3>
+                <ol>
+                  <li>
+                    <a target=”_blank” href="http://fontawesome.com">Font awesome</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://flaticon.com">Flat icon</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://icons8.com">Icons 8</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://material.io/resources/icons">Material Icons</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://iconmonstr.com">Icon Monstr</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://www.freepik.com">Freepik</a>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+
+          <div id="usefulToHide11" class="card is-hidden">
+            <div class="card-content">
+              <div class="content">
+                <h3>Ilustraciones</h3>
+                <ol>
+                  <li>
+                    <a target=”_blank” href="http://undraw.co/illustrations">Undraw</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://drawkit.io">Drawkit</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://icons8.com/ouch">Icons 8</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://iradesign.io">IRA Design</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://interfacer.xyz">Interfacer</a>
+                  </li>
+                  <li>
+                    <a target=”_blank” href="http://blush.design">Blush Design</a>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+
+          <div id="usefulToHide12" class="card is-hidden">
+            <div class="card-content">
+              <div class="content">
+                <h3>Bibliotecas de animación</h3>
+                <ol>
+                  <li>CSShake</li>
+                  <li>Animate.css</li>
+                  <li>AnimeJS</li>
+                  <li>GreenSock (GSAP)</li>
+                  <li>Magic Animations</li>
+                  <li>Hover css</li>
+                  <li>AniJS</li>
+                  <li>Wicked CSS</li>
+                  <li>Tuesday</li>
+                  <li>Mo.js</li>
+                  <li>Bounce.js</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+
+          <div id="usefulToHide13" class="card is-hidden">
+            <div class="card-content">
+              <div class="content">
+                <h3>Extensiones para Chrome</h3>
+                <ol>
+                  <li>Web Developer</li>
+                  <li>CSSViewer</li>
+                  <li>Wappalyzer</li>
+                  <li>JSONView</li>
+                  <li>Lorem Ipsum Generator</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="is-flex is-justify-content-center">
+          <button id="moreUseful" class="button is-info mt-6">Más</button>
+        </div>
+      </section>
+    </div>
+  </div>
+  <!-- /useful -->
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        Este sitio puede considerarse otro de mis proyectos personales. <br>Aprendiendo funcionalidades y contenido que
+        pueden agregarle valor.
+      </p>
+      <p>Hecho desde cero</p>
+      <a href="https://bulma.io">
+        <img src="https://bulma.io/images/made-with-bulma.png" alt="Made with Bulma" width="256" height="48">
+      </a>
+      <p><strong>© 2021 Juan Pablo Moya Castillo</strong></p>
+    </div>
+  </footer>
+
+  <script>
+    //Wait the content is ready
+    $(document).ready(function () {
+      //If the button is clicked, add the class is-hidden to the selected cards
+      $("#moreProjects").click(function () {
+        $("#projectToHide1").toggleClass("is-hidden");
+        $("#projectToHide2").toggleClass("is-hidden");
+        $("#projectToHide3").toggleClass("is-hidden");
+        $("#projectToHide4").toggleClass("is-hidden");
+        $("#projectToHide5").toggleClass("is-hidden");
+        //To hide button after click
+        $("#moreProjects").toggleClass("is-hidden");
+      });
+      //If the button is clicked, add the class is-hidden to the selected cards
+      $("#moreUseful").click(function () {
+        $("#usefulToHide1").toggleClass("is-hidden");
+        $("#usefulToHide2").toggleClass("is-hidden");
+        $("#usefulToHide3").toggleClass("is-hidden");
+        $("#usefulToHide4").toggleClass("is-hidden");
+        $("#usefulToHide5").toggleClass("is-hidden");
+        $("#usefulToHide6").toggleClass("is-hidden");
+        $("#usefulToHide7").toggleClass("is-hidden");
+        $("#usefulToHide8").toggleClass("is-hidden");
+        $("#usefulToHide9").toggleClass("is-hidden");
+        $("#usefulToHide10").toggleClass("is-hidden");
+        $("#usefulToHide11").toggleClass("is-hidden");
+        $("#usefulToHide12").toggleClass("is-hidden");
+        $("#usefulToHide13").toggleClass("is-hidden");
+        //To hide button after click
+        $("#moreUseful").toggleClass("is-hidden");
+      });
+    });
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
+        // Add a click event on each of them
+        $navbarBurgers.forEach(el => {
+          el.addEventListener('click', () => {
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+
           });
-        </script>
-
-        <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            // Get all "navbar-burger" elements
-            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-
-            // Check if there are any navbar burgers
-            if ($navbarBurgers.length > 0) {
-                // Add a click event on each of them
-                $navbarBurgers.forEach( el => {
-                    el.addEventListener('click', () => {
-                    // Get the target from the "data-target" attribute
-                        const target = el.dataset.target;
-                        const $target = document.getElementById(target);
-
-                        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-                        el.classList.toggle('is-active');
-                        $target.classList.toggle('is-active');
-
-                    });
-                });
-            }
         });
-        </script>  
-  </body>
+      }
+    });
+  </script>
+</body>
+
 </html>
