@@ -110,7 +110,7 @@
           </a>
 
           <a href="#projects" class="navbar-item">
-            Proyectos
+            Trabajo
           </a>
 
           <a href="#useful" class="navbar-item">
@@ -141,12 +141,14 @@
       <div class="content has-text-centered">
         <h1>Hola 👋🏼 mi nombre es Juan Pablo</h1>
         <p>Soy <a href="https://rxresu.me/r/xlnac9" target="_blank">ingeniero
-            industrial</a> y estudiante de <a href="https://github.com/jpmoyacastillo" target="_blank">desarrollo web.</a>
+            industrial</a> y estudiante de <a href="https://github.com/jpmoyacastillo" target="_blank">desarrollo
+            web.</a>
           <br>Actualmente vivo en Utrecht, Países Bajos. <br>Mis intereses van desde la sostenibilidad hasta la
           tecnología. También estudio sobre innovación, emprendimiento e impacto social.
         </p>
         <p>Estemos en contacto via <a href="https://www.linkedin.com/in/jpmoyacastillo/" target="_blank">LinkedIn</a> o
-          <a href="https://twitter.com/jpmoyacastillo" target="_blank">Twitter.</a></p>
+          <a href="https://twitter.com/jpmoyacastillo" target="_blank">Twitter.</a>
+        </p>
       </div>
     </div>
   </section>
@@ -154,7 +156,7 @@
 
   <!-- projects -->
   <section id="projects" class="section">
-    <h2 class="subtitle is-3 has-text-centered pb-4">Proyectos 🧩</h2>
+    <h2 class="subtitle is-3 has-text-centered pb-4">Trabajo y Proyectos 🧩</h2>
     <div class="container grid-projects">
 
       <div class="card">
@@ -330,11 +332,17 @@
   <!-- useful -->
   <div class="columns">
     <div class="column is-8 is-offset-2">
-      <h2 id="useful" class="subtitle is-3 has-text-centered pt-6">Útil 🔗</h2>
+      <h2 id="useful" class="subtitle is-3 has-text-centered pt-6 mb-1">Útil</h2>
+      <div class="filter-buttons center pb-1">
+        <button class="button m-3 is-info is-outlined" onclick="filterObjects('all')">📚 Todos</button>
+        <button class="button m-3 is-success is-outlined" onclick="filterObjects('code')">💻 Código</button>
+        <button class="button m-3 is-danger is-outlined" onclick="filterObjects('design')">🌈 Diseño</button>
+        <button class="button m-3 is-dark is-outlined" onclick="filterObjects('other')">🔎 Otros</button>
+      </div>
       <section class="section is-paddingless">
         <div class="container grid-useful">
 
-          <div class="card">
+          <div class="card useful-box code">
             <div class="card-content">
               <div class="content">
                 <h3>Plataformas para aprender a programar</h3>
@@ -368,7 +376,7 @@
             </div>
           </div>
 
-          <div class="card">
+          <div class="card useful-box code">
             <div class="card-content">
               <div class="content">
                 <h3>Editores de código</h3>
@@ -383,7 +391,7 @@
             </div>
           </div>
 
-          <div class="card">
+          <div class="card useful-box code">
             <div class="card-content">
               <div class="content">
                 <h3>Documentación</h3>
@@ -405,7 +413,7 @@
             </div>
           </div>
 
-          <div class="card">
+          <div class="card useful-box code">
             <div class="card-content">
               <div class="content">
                 <h3>Canales de Youtube</h3>
@@ -422,7 +430,7 @@
             </div>
           </div>
 
-          <div id="usefulToHide1" class="card is-hidden">
+          <div class="card useful-box code">
             <div class="card-content">
               <div class="content">
                 <h3>Podcasts</h3>
@@ -444,7 +452,7 @@
             </div>
           </div>
 
-          <div id="usefulToHide2" class="card is-hidden">
+          <div class="card useful-box code">
             <div class="card-content">
               <div class="content">
                 <h3>Plataformas de desafío de código</h3>
@@ -484,7 +492,7 @@
             </div>
           </div>
 
-          <div id="usefulToHide3" class="card is-hidden">
+          <div class="card useful-box other">
             <div class="card-content">
               <div class="content">
                 <h3>Hosting gratis</h3>
@@ -521,7 +529,7 @@
             </div>
           </div>
 
-          <div id="usefulToHide4" class="card is-hidden">
+          <div class="card useful-box other">
             <div class="card-content">
               <div class="content">
                 <h3>Plataformas de Freelancing</h3>
@@ -561,7 +569,7 @@
             </div>
           </div>
 
-          <div id="usefulToHide5" class="card is-hidden">
+          <div class="card useful-box other">
             <div class="card-content">
               <div class="content">
                 <h3>Para encontrar trabajos remotos</h3>
@@ -598,7 +606,7 @@
             </div>
           </div>
 
-          <div id="usefulToHide6" class="card is-hidden">
+          <div class="card useful-box design">
             <div class="card-content">
               <div class="content">
                 <h3>Paletas de colores</h3>
@@ -623,7 +631,7 @@
             </div>
           </div>
 
-          <div id="usefulToHide7" class="card is-hidden">
+          <div class="card useful-box design">
             <div class="card-content">
               <div class="content">
                 <h3>Fuentes</h3>
@@ -645,7 +653,7 @@
             </div>
           </div>
 
-          <div id="usefulToHide8" class="card is-hidden">
+          <div class="card useful-box design">
             <div class="card-content">
               <div class="content">
                 <h3>Inspiración UI</h3>
@@ -664,7 +672,7 @@
             </div>
           </div>
 
-          <div id="usefulToHide9" class="card is-hidden">
+          <div class="card useful-box design">
             <div class="card-content">
               <div class="content">
                 <h3>Fotos abiertas</h3>
@@ -683,7 +691,7 @@
             </div>
           </div>
 
-          <div id="usefulToHide10" class="card is-hidden">
+          <div class="card useful-box design">
             <div class="card-content">
               <div class="content">
                 <h3>Iconos</h3>
@@ -711,7 +719,7 @@
             </div>
           </div>
 
-          <div id="usefulToHide11" class="card is-hidden">
+          <div class="card useful-box design">
             <div class="card-content">
               <div class="content">
                 <h3>Ilustraciones</h3>
@@ -739,7 +747,7 @@
             </div>
           </div>
 
-          <div id="usefulToHide12" class="card is-hidden">
+          <div class="card useful-box design">
             <div class="card-content">
               <div class="content">
                 <h3>Bibliotecas de animación</h3>
@@ -760,7 +768,7 @@
             </div>
           </div>
 
-          <div id="usefulToHide13" class="card is-hidden">
+          <div class="card useful-box other">
             <div class="card-content">
               <div class="content">
                 <h3>Extensiones para Chrome</h3>
@@ -777,9 +785,9 @@
 
 
         </div>
-        <div class="is-flex is-justify-content-center">
+        <!-- <div class="is-flex is-justify-content-center">
           <button id="moreUseful" class="button is-info mt-6">Más</button>
-        </div>
+        </div> -->
       </section>
     </div>
   </div>
@@ -813,23 +821,23 @@
         $("#moreProjects").toggleClass("is-hidden");
       });
       //If the button is clicked, add the class is-hidden to the selected cards
-      $("#moreUseful").click(function () {
-        $("#usefulToHide1").toggleClass("is-hidden");
-        $("#usefulToHide2").toggleClass("is-hidden");
-        $("#usefulToHide3").toggleClass("is-hidden");
-        $("#usefulToHide4").toggleClass("is-hidden");
-        $("#usefulToHide5").toggleClass("is-hidden");
-        $("#usefulToHide6").toggleClass("is-hidden");
-        $("#usefulToHide7").toggleClass("is-hidden");
-        $("#usefulToHide8").toggleClass("is-hidden");
-        $("#usefulToHide9").toggleClass("is-hidden");
-        $("#usefulToHide10").toggleClass("is-hidden");
-        $("#usefulToHide11").toggleClass("is-hidden");
-        $("#usefulToHide12").toggleClass("is-hidden");
-        $("#usefulToHide13").toggleClass("is-hidden");
-        //To hide button after click
-        $("#moreUseful").toggleClass("is-hidden");
-      });
+      // $("#moreUseful").click(function () {
+      //   $("#usefulToHide1").toggleClass("is-hidden");
+      //   $("#usefulToHide2").toggleClass("is-hidden");
+      //   $("#usefulToHide3").toggleClass("is-hidden");
+      //   $("#usefulToHide4").toggleClass("is-hidden");
+      //   $("#usefulToHide5").toggleClass("is-hidden");
+      //   $("#usefulToHide6").toggleClass("is-hidden");
+      //   $("#usefulToHide7").toggleClass("is-hidden");
+      //   $("#usefulToHide8").toggleClass("is-hidden");
+      //   $("#usefulToHide9").toggleClass("is-hidden");
+      //   $("#usefulToHide10").toggleClass("is-hidden");
+      //   $("#usefulToHide11").toggleClass("is-hidden");
+      //   $("#usefulToHide12").toggleClass("is-hidden");
+      //   $("#usefulToHide13").toggleClass("is-hidden");
+      //   //To hide button after click
+      //   $("#moreUseful").toggleClass("is-hidden");
+      // });
     });
   </script>
 
@@ -856,6 +864,7 @@
       }
     });
   </script>
+  <script src="filterObjects.js"></script>
 </body>
 
 </html>
